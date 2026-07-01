@@ -1,0 +1,6 @@
+{
+  "name": "CM Notes",
+  "description": "Central Maintenance Notes (CM Notes) - A secure web application for centralizing server, database, and system maintenance logs, terminal command guides, and private troubleshooting notes with terminal-like command displays, search filtering, and admin controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

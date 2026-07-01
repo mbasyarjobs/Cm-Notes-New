@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base custom styles to make sure dark/light mode transition is buttery smooth */
+html, body {
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Custom terminal styling */
+.terminal-container {
+  background-color: #0f172a; /* Slate 900 */
+  color: #38bdf8; /* Sky 400 */
+}
+
+.terminal-header {
+  background-color: #1e293b; /* Slate 800 */
+}
